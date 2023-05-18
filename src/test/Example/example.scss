@@ -1,0 +1,53 @@
+$primary-color: #ff0000;
+$secondary-color: #00ff00;
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+
+  &.icon {
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  @at-root .button-group & {
+    margin-right: 10px;
+  }
+}
+
+.button:hover {
+  background-color: $secondary-color;
+}
+
+.form {
+  margin-bottom: 20px;
+
+  > label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  @for $i from 1 through 3 {
+    .input-#{$i} {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 14px;
+  }
+
+  .input {
+    font-size: 14px;
+  }
+}
