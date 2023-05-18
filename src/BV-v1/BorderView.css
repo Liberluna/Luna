@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body * { 
+    border: 2px solid;
+}
+
+body > * {
+  border-color: red;
+}
+
+body > * > * {
+  border-color: green;
+}
+  
+body > * > * > * {
+  border-color: blue;
+}
+
+body > * > * > * > * {
+  border-color: yellow;
+}
+
+body > * > * > * > * > * {
+  border-color: purple;
+}
+
+body > * > * > * > * > * > * {
+  border-color: orange;
+}
+
+body > * > * > * > * > * > * > * {
+  border-color: pink;
+}
+
+body > * > * > * > * > * > * > * > * {
+  border-color: brown;
+}
+
+body > * > * > * > * > * > * > * > * > * {
+  border-color: black;
+}
+
+body > * > * > * > * > * > * > * > * > * > * {
+  border-color: gray;
+}
+
