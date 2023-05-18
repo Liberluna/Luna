@@ -1,4 +1,4 @@
-function isPrime(num: number): boolean {
+function ts_isPrime(num: number): boolean {
   if (num <= 1) {
     return false;
   }
@@ -12,18 +12,18 @@ function isPrime(num: number): boolean {
   return true;
 }
 
-function printPrimes(limit: number): void {
+function ts_printPrimes(limit: number): void {
   for (let i = 2; i <= limit; i++) {
-    if (isPrime(i)) {
+    if (ts_isPrime(i)) {
       console.log(i);
     }
   }
 }
 
-const limit = 100; // limit number
-printPrimes(limit);  
+const ts_limit = 100; // limit number
+ts_printPrimes(ts_limit);  
 
 /*
     素数列挙プログラム for TS
-    コンパイルテスト用
+    トランスコンパイルテスト用
 */
