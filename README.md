@@ -1,7 +1,7 @@
 # Welcome to "Luna"! 👋
 **Luna** is an extensible, customizable language that can be used for web development.
 <br/>
-<img src="https://www.bannerkoubou.com/image/FZ3kflJfPPDxpxL1684497749_1684497764.png" width="150">
+<img src="https://github.com/Liberluna/Luna/assets/121654029/ef7c4cac-a825-4dbb-9e60-b135185f3b71" width="150">
 
 It can be integrated into frameworks and libraries such as **React** and **Vue**.
 Please call us **LunaLang** like **GoLang**.
