@@ -1,5 +1,5 @@
 # Welcome to "Luna"! 👋
-**Luna** is an extensible, customizable language that can be used for web development.
+**Luna** is an extensible, customizable language and files that can be used for web development.
 <br/><br/>
 <img src="https://github.com/Liberluna/Luna/assets/121654029/ef7c4cac-a825-4dbb-9e60-b135185f3b71" width="150">
 
