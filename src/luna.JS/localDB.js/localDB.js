@@ -77,16 +77,32 @@ var localDB = {
         delete JSON.parse(this.DB).DataBase[0][name];
     },
     obj: {
-        addData: function (name, key,data ) {
+        setData: function (name, key,data ) {
             let DBcontent = JSON.parse(this.DB);
             DBcontent.DataBase[0]["name"]["data"][key] = data;
+            this.LS.Set("localDB", JSON.stringify(DBcontent));
+        },
+        getData: function (name, key) {
+            return JSON.parse(this.DB).DataBase[0][name]["data"][key];
+        },
+        deleteData: function (name, key) {
+            let DBcontent = JSON.parse(this.DB);
+            DBcontent.DataBase[0][name]["data"].splice(key, 1);
             this.LS.Set("localDB", JSON.stringify(DBcontent));
         }
     },
     list: {
-        addData: function (name, data) {
+        setData: function (name, data) {
             let DBcontent = JSON.parse(this.DB);
-            DBcontent.DataBase[0]["name"]["data"].push(data);
+            DBcontent.DataBase[0][name]["data"].push(data);
+            this.LS.Set("localDB", JSON.stringify(DBcontent));
+        },
+        getData: function (name) {
+            return JSON.parse(this.DB).DataBase[0][name]["data"];
+        },
+        deleteData: function (name, key) {
+            let DBcontent = JSON.parse(this.DB);
+            DBcontent.DataBase[0][name]["data"].splice(key, 1);
             this.LS.Set("localDB", JSON.stringify(DBcontent));
         }
     }
