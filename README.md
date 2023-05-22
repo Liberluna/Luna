@@ -1,7 +1,7 @@
 # Welcome to "Luna"! 👋
 **Luna** is an extensible, customizable language and files that can be used for web development.
 <br/><br/>
-<img src="assets/luna.jpg" width="150">
+<img src="assets/luna.g" width="150">
 
 It can be integrated into frameworks and libraries such as **React** and **Vue**.
 Please call us **LunaLang** like **GoLang**.
