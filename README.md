@@ -1,17 +1,16 @@
 # Welcome to "Luna"! 👋
-**Luna** is an extensible, customizable language and files that can be used for web development.
+**Luna** is a custom language suite that can be used with all frameworks and libraries.
 <br/><br/>
 <img src="assets/luna.png" width="150">
 
-It can be integrated into frameworks and libraries such as **React** and **Vue**.
+It can be integrated into frameworks and libraries such as **React** , **Vue** and all.
+
 Please call us **LunaLang** like **GoLang**.
 
 ## What can it do? 🤔
-Create custom CSS property kits, dynamically compile **TypeScript**,**Sass**, create HTML custom tags, modify default CSS, add useful JavaScript functions, virtual communication, etc...
+Define your own properties, tags, use convenient predefined functions , lang compile, the possibilities are endless.
 
 ```Neither the moon's orbit nor its development will ever stop.```
-
-Even back-end engineers can efficiently develop the front end.
 
 Anyone is free to participate in the project.
 
